@@ -26,7 +26,8 @@ class MainApp extends StatelessWidget {
                 "Taman Bunga Celosia",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 22
+                  fontSize: 22,
+                  color: Colors.green,
                 ),
               ),
               SizedBox(height: 8,),
@@ -67,7 +68,8 @@ class MainApp extends StatelessWidget {
                 "Tentang Taman",
                 style: TextStyle(
                   fontSize: 19,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green,
                 ),
               ),
               SizedBox(height: 8,),
@@ -88,7 +90,8 @@ class MainApp extends StatelessWidget {
                     
                     style: TextStyle(
                       fontSize: 19,
-                      fontWeight: FontWeight.bold
+                      fontWeight: FontWeight.bold,
+                      color: Colors.green,
                     ),
                   ),
                   SizedBox(height: 18,),
@@ -98,7 +101,7 @@ class MainApp extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.location_on),
+                            Icon(Icons.location_on, color: Colors.green,),
                             SizedBox(width: 12,),
                             Text(
                               "Lokasi",
@@ -119,7 +122,7 @@ class MainApp extends StatelessWidget {
                         Divider(height: 28,),
                         Row(
                           children: [
-                            Icon(Icons.access_time),
+                            Icon(Icons.access_time, color: Colors.green,),
                             SizedBox(width: 12,),
                             Text("Jam Buka",
                               style: TextStyle(
@@ -139,7 +142,7 @@ class MainApp extends StatelessWidget {
                         Divider(height: 28,),
                         Row(
                           children: [
-                            Icon(Icons.confirmation_num),
+                            Icon(Icons.confirmation_num,color: Colors.green,),
                             SizedBox(width: 12,),
                             Text("Harga Tiket",
                               style: TextStyle(
